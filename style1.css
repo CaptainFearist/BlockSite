@@ -23,11 +23,13 @@ body {
 
 .ITLanguages {
   list-style-type: none;
+  justify-content: center;
+  align-items: center;
 }
 
 .ITLanguages li {
-  display: inline;
-  margin-right: 20px;
+  display: inline-block;
+  margin-right: 90px;
 }
 
 .ITLanguages li:last-child {
@@ -104,9 +106,7 @@ body {
   padding: 20px;
 }
 
-.content-text {
-  max-width: calc(100% - 300px);
-}
+
 
 .social-media-container {
   display: flex;
@@ -145,5 +145,14 @@ body {
 
 .profile-img {
   border-radius: 50%;
+
+  height: 100px;
 }
 
+.head_container{
+  background-color: #888888;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px; 
+}
