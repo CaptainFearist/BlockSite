@@ -1,70 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <link rel="stylesheet" href="style1.css">
-    <title>Разработка мобильных приложений</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <title>ДРАЙВИКС</title>
 </head>
 <body>
 
-<header class="header">
-    <nav>
-        <ul class="ITLanguages">
-            <li class="head_container"><a href="Java.html#peculiarities">Java</a></li>
-            <li class="head_container"><a href="Android_Studio.html">Android Studio</a></li>
-            <li class="head_container"><a href="Flutter.html">Flutter</a></li>
-            <li class="head_container"><a href="SQL.html">SQL</a></li>
+    <div class="navbar">
+        <div class="logo"><span class="logo-part1">ДРАЙ</span><span class="logo-part2">ВИКС</span>
+    </div>
+        <ul class="menu">
+            <a href="cars.html"><li class="menu-item">Машины</li></a>
+            <a href="privacy.html"><li class="menu-item">Договор</li></a>
+            <a href="about.html"><li class="menu-item">Реквизиты компании</li></a>
         </ul>
-    </nav>
-    <div class="profile">
-        <img src="Images/profileimg.jpg" alt="Profile Picture" class="profile-img">
+        <div class="location">Москва</div>
+        <div class="phone">+7 (501) 932-95-23</div>
+        <a href="help.html"><button class="btn btn-help">Помощь</button></a>
+        <a href="profile.html"><button class="btn">Профиль</button></a>
     </div>
-</header>
 
-<div class="container">
-    <section class="additional-info">
-        <div class="info-block" id="java">
-            <h2>Java для мобильной разработки</h2>
-            <p>Java — один из самых популярных языков программирования, используемых для создания мобильных приложений.</p>
-            <p>Но для начала следует изучить основы языка.</p>
+    <div class="banner-container">
+        <div class="banner">
+            <img src="Images/banner1.jpg" alt="Car Banner 1">
+            <img src="Images/banner2.jpg" alt="Car Banner 2">
+            <img src="Images/banner3.jpg" alt="Car Banner 3">
+            <img src="Images/banner4.jpg" alt="Car Banner 4">
+
+            <img src="Images/banner1.jpg" alt="Car Banner 1">
+            <img src="Images/banner2.jpg" alt="Car Banner 2">
+            <img src="Images/banner3.jpg" alt="Car Banner 3">
+            <img src="Images/banner4.jpg" alt="Car Banner 4">
         </div>
-
-        <div class="info-block" id="android">
-            <h2>Разработка в Android Studio</h2>
-            <p>Android Studio — это официальная интегрированная среда разработки (IDE) для создания приложений под платформу Android.</p>
-        </div>
-
-        <div class="info-block" id="flutter">
-            <h2>Flutter: фреймворк для мобильной разработки</h2>
-            <p>Flutter — является открытым исходным кодом "фреймворк", разработанный Google, для создания кросс-платформенных мобильных приложений.</p>
-            <p>Встречается и используется довольно часто.</p>
-        </div>
-
-        <div class="info-block" id="sql">
-            <h2>SQL для работы с базами данных</h2>
-            <p>SQL (Structured Query Language) — язык запросов, используемый для работы с реляционными базами данных.</p>
-        </div>
-    </section>
-</div>
-
-<div class="content-container">
-    <div class="welcome-container">
-        <h2>Добро пожаловать!</h2>
-        <p>Добро пожаловать в увлекательный мир программирования! В этом курсе мы будем изучать Java, Android Studio, Flutter и SQL. Эти инструменты являются неотъемлемой частью разработки приложений для Android.</p><br>
-        <p>Во время обучения вас ждут практические задания и вопросы для закрепления материала. Будьте готовы к тому, что программирование требует терпения, настойчивости и практики. Но с правильным подходом и усердием вы сможете достичь успеха в этой области. Удачи в обучении!</p>
     </div>
-    <div class="social-media-container">
-        <span>Мы также активны в социальных сетях. Подпишитесь на наши аккаунты:</span>
-        <ul class="social-media">
-            <li><a href="https://vk.com/" target="_blank">ВКонтакте</a></li>
-            <li><a href="https://t.me/+vN-yC-JiPgliYTky" target="_blank">Telegram</a></li>
-            <li><a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a></li>
-        </ul>
-    </div>
-</div>
 
-<footer class="footer">
-    <p>&copy; 2024 Разработка мобильных приложений</p>
-</footer>
+        <h1 class="paragraph">Самые новые и лучшие машины</h1>
+        <div class="tags">
+            <span class="tag">Новинка</span>
+            <span class="tag">Электро</span>
+            <span class="tag">Комфорт</span>
+            <span class="tag">Эконом</span>
+        </div>        
+        <div class="car-cards-container">
+            <div class="car-card">
+                <img src="Images/VW_ID4.png" alt="VW ID.4">
+                <div class="car-name">VW ID.4</div>
+                <div class="car-price">от 17.63 ₽/мин</div>
+            </div>
+            <div class="car-card">
+                <img src="Images/Moscvich.png" alt="Москвич 3 электро">
+                <div class="car-name">Москвич 3 электро</div>
+                <div class="car-price">от 12.11 ₽/мин</div>
+            </div>
+            <div class="car-card">
+                <img src="Images/Exees_LX.png" alt="Exeed LX">
+                <div class="car-name">Exeed LX</div>
+                <div class="car-price">от 14.13 ₽/мин</div>
+            </div>
+        </div>
+        <div class="car-cards-container">
+            <div class="car-card">
+                <img src="Images/Omoda_C5.png" alt="Omoda C5">
+                <div class="car-name">Omoda C5</div>
+                <div class="car-price">от 14.2 ₽/мин</div>
+            </div>
+            <div class="car-card">
+                <img src="Images/Omoda_S5.png" alt="Omoda S5">
+                <div class="car-name">Omoda S5</div>
+                <div class="car-price">от 12.5 ₽/мин</div>
+            </div>
+            <div class="car-card">
+                <img src="Images/Chery_Tiggo_7_Pro_Max.png" alt="Chery Tiggo7 Pro Max">
+                <div class="car-name">Chery Tiggo7 Pro Max</div>
+                <div class="car-price">от 12.48 ₽/мин</div>
+            </div>
+        </div>
 
+        <h2 class="paragraph">Поездки от 6,5 ₽/мин</h2>
+        <div class="tariffs">
+            <div class="tariff">
+                <img src="Images/hourglass.png" alt="Hourglass Icon" class="tariff-icon">
+                <div class="tariff-info">
+                    <h3>Поминутный тариф</h3>
+                    <p>Для коротких поездок по городу пару раз в неделю</p>
+                </div>
+            </div>
+            <div class="tariff">
+                <img src="Images/Location.png" alt="Location Pin Icon" class="tariff-icon">
+                <div class="tariff-info">
+                    <h3>Тариф «Фикс»</h3>
+                    <p>Для пресказуемых поездок по фиксированной цене</p>
+                </div>
+            </div>
+            <div class="tariff">
+                <img src="Images/Mountains.webp" alt="Mountains Icon" class="tariff-icon">
+                <div class="tariff-info">
+                    <h3>Тарифы от 2 часов до 7 дней</h3>
+                    <p>Для долгих поездок, вылазок за город и путешествий</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="custom-card">
+            <div class="custom-map-container">
+                <div class="custom-map">
+                    <div class="custom-map-content">
+                        <script type="text/javascript" charset="utf-8" 
+                            async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A401c3f7d731fae6117eab5993ebb50c1855b915dbeec37e0502f39ea4d0b78f8&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+
+        <div class="reviews">
+            <div class="review">
+                <div class="review-content">
+                    <p>"Отличный сервис! Быстро, удобно, недорого. С удовольствием буду пользоваться снова."</p>
+                    <p>- Иван П.</p>
+                </div>
+                <div class="user-avatar"><img src="Images/review1.jpg" alt="User Avatar"></div>
+            </div>
+            <div class="review">
+                <div class="review-content">
+                    <p>"Очень удобно арендовать машину через этот сервис. Всегда вовремя и без лишних хлопот."</p>
+                    <p>- Екатерина С.</p>
+                </div>
+                <div class="user-avatar"><img src="Images/review3.jpg" alt="User Avatar"></div>
+            </div>
+            <div class="review">
+                <div class="review-content">
+                    <p>"Понравилось, что можно выбрать машину по своему удобному месту и времени. Рекомендую!"</p>
+                    <p>- Алексей И.</p>
+                </div>
+                <div class="user-avatar"><img src="Images/review2.jpg" alt="User Avatar"></div>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="footer-content">
+                <div class="logo"><span class="logo-part1">ДРАЙ</span><span class="logo-part2">ВИКС</span></div>
+                <p>При стоимости первой поездки в размере до 500₽ стоимости. При стоимости первой поездки в размере более 500₽ предоставляется скидка в размере 500₽.</p>
+                <p>Тарифы могут меняться в зависимости от марки машины, местонахождения автомобиля, времени бронирования, дня недели, при подключении тарифных опций и в иных случаях, предусмотренных Договором.</p>
+                <p>Об актуальной стоимости тарифов арендодатель сообщает арендатору в мобильном приложении «ДРАЙВИКС» перед бронированием автомобиля.</p>
+                <div class="links">
+                    <a href="privacy_policy.html">Политика конфиденциальности</a>
+                    <a href="Files/eula.pdf">Договор</a>
+                    <a href="contacts.html">Контакты</a>
+                </div>
+                <div class="copyright">© 2023–2024 <span class="logo-part1">ДРАЙ</span><span class="logo-part2">ВИКС</span></div>
+            </div>
+        </footer>
+            
 </body>
 </html>
