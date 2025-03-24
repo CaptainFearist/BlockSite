@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <title>Профиль</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo"><a href ="index.html"><span class="logo-part1">ДРАЙ</span><span class="logo-part2">ВИКС</span></a>
+    </div>
+        <ul class="menu">
+            <a href="cars.html"><li class="menu-item">Машины</li></a>
+            <a href="privacy.html"><li class="menu-item">Договор</li></a>
+            <a href="about.html"><li class="menu-item">Реквизиты компании</li></a>
+        </ul>
+        <div class="location">Москва</div>
+        <div class="phone">+7 (501) 932-95-23</div>
+        <a href="help.html"><button class="btn btn-help">Помощь</button></a>
+        <a href="profile.html"><button class="btn">Профиль</button></a>
+    </div>
+
+    <div class="registration">
+        <form id="registration" method="get" action="">
+            <label for="firstName"><b>Имя</b></label><br>
+            <input type="text" name="firstName" id="firstName" placeholder="Имя" required><br><br>
+    
+            <label for="lastName"><b>Фамилия</b></label><br>
+            <input type="text" name="lastName" id="lastName" placeholder="Фамилия" required><br><br>
+    
+            <label for="phone"><b>Номер телефона</b></label><br>
+            <input type="text" name="phone" id="phone" placeholder="+7XXXXXXXXXX" required maxlength="12"><br><br>
+    
+            <label for="password"><b>Пароль</b></label><br>
+            <input type="password" name="password" id="password" placeholder="Пароль" pattern="[A-Za-z0-9]{6,}" title="Пароль должен содержать только английские буквы и цифры и быть длиной не менее 6 символов" required><br><br>
+    
+            <label for="confirmPassword"><b>Повторите пароль</b></label><br>
+            <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Повторите пароль" pattern="[A-Za-z0-9]{6,}" title="Пароль должен содержать только английские буквы и цифры и быть длиной не менее 6 символов" required><br><br>
+    
+            <input class="registr" type="submit" name="log" id="log" value="Регистрация"><br><br>
+        </form>
+    </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo"><span class="logo-part1">ДРАЙ</span><span class="logo-part2">ВИКС</span></div>
+            <p>При стоимости первой поездки в размере до 500₽ стоимости. При стоимости первой поездки в размере более 500₽ предоставляется скидка в размере 500₽.</p>
+            <p>Тарифы могут меняться в зависимости от марки машины, местонахождения автомобиля, времени бронирования, дня недели, при подключении тарифных опций и в иных случаях, предусмотренных Договором.</p>
+            <p>Об актуальной стоимости тарифов арендодатель сообщает арендатору в мобильном приложении «ДРАЙВИКС» перед бронированием автомобиля.</p>
+            <div class="links">
+                <a href="privacy_policy.html">Политика конфиденциальности</a>
+                <a href="Files/eula.pdf">Договор</a>
+                <a href="contacts.html">Контакты</a>
+            </div>
+            <div class="copyright">© 2023–2024 <span class="logo-part1">ДРАЙ</span><span class="logo-part2">ВИКС</span></div>
+        </div>
+    </footer>
+</body>
+</html>
